@@ -1,0 +1,95 @@
+body{
+	/*background-color: darkred;*/
+	background-image: url("../images/mochaGrunge.png") ;
+	color: white;
+	font-size: 12px;
+	/*line-height: 1.2em;*/
+}
+#main{
+	width: 1024px;
+	margin: auto;
+ 
+}
+.column{
+	background-color: #333;
+	width: 261px;
+	float: left;
+	margin: 15px 10px;
+	padding: 30px;
+	color: #fff;
+	position: relative;
+}
+h1{
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 4em;
+	text-align: center;
+	color: #ffd200;
+}
+h2, h3{
+	font-family: Verdana, Arial, sans-serif;
+}
+h2{
+	font-size: 2.25em;
+	background-color: rgba(255,210,0, 0.75);
+	padding: 5px;
+	margin-top: 0;
+	color: #111111;
+	border-radius: 8px;
+	position: relative;
+	z-index:10;
+}
+h3{
+	font-size: 2em;
+	border-bottom: 2px solid;
+	color: #ffd200;
+	margin-bottom: 0;
+}
+.column ul h3{
+	color: #d8d8d8;
+	border-bottom: none;
+}
+.column ul p{
+	color: #ffe35f;
+	font-size: 1.5em;
+}
+ul{
+	list-style-type: none;
+	padding-left: 0;
+}
+.column img{
+	width: 100%;
+
+}
+.column img.beer{
+	width: 65%;
+}
+.col-img{
+	position: absolute;
+	
+}
+.col-img.wings{
+	top: -110px;
+	left: 100px;
+	width: 80%;
+}
+.col-img.hamburger{
+	top: -110px;
+	left: 30px;
+	width: 80%;
+
+}
+.col-img.beer{
+	top: -150px;
+	left: 80px;
+	width: 80%;
+}
+.promo{
+	position: fixed;
+	width: 10%;
+	right: -100px;
+	-webkit-transition: all 1s;
+	transition: all 1s;
+}
+.promo:hover{
+	right: -20px;
+}

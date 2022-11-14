@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800|Oswald:400,600,700&display=swap');
+.test{
+	/*border:1px solid red;*/
+}
+html{
+	width: 100%;
+}
+body{
+	margin:0;
+	padding: 0;
+	font-family: 'open sans',sans-serif;
+	color: #575757;
+	font-size: 15px;
+}
+.container{
+	width: 1200px;
+	margin: 0 auto;
+}
+.clearfix:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/*start of header navigation*/
+header{
+	/*margin:0 96px;*/
+}
+.logo{
+	margin:0;
+	padding:19px 0;
+	float: left;
+	width: 202px;
+}
+ul{
+	margin: 0;
+	padding: 0;
+}
+nav{
+	float: left;
+	padding: 0;
+	margin: 0;
+	width: 896px;
+}
+nav ul li{
+	float: left;
+	list-style: none;
+	font-size: 14px;
+	line-height: 18px;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin: 56px 0;
+}
+nav a{
+	text-decoration: none;
+	margin-right: 20px;
+	color: #2a2a2a;
+	
+}
+nav a:hover, button:hover, .heroinfo a:hover{
+	color: red;
+	box-shadow: 1px 9px 5px gray;
+	padding: 5px;
+}
+nav li{
+	border-right: 1px solid #2a2a2a;
+	padding:0 13px;
+}
+nav li:last-child{
+	border-right: none;
+}
+#social{
+	float: left;
+	width: 96px;
+	margin: 56px 0;
+}
+
+/*end of hearder*/
+#hero{
+	height: 596px;
+	background: url(../images/homeHero.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	overflow: auto;
+}
+.heroinfo{
+	width: 690px;
+}
+.heroinfo h1{
+	font-family: 'Oswald',sans-serif;
+	font-size: 83px;
+	color: white;
+	padding-bottom: 0;
+	font-weight: 400;
+	line-height: 110px;
+	text-transform: uppercase;
+}
+.heroinfo h1 span{
+	font-size: 169px;
+	display: block;
+}
+.heroinfo h2{
+	color: white;
+	font-family: 'open sans',sans-serif;
+	font-weight: 400;
+	padding: 0;
+	margin: 0;
+	font-size: 30px;
+	text-transform: uppercase;
+}
+.heroinfo h2 span{
+	display: block;
+}
+.heroinfo p{
+	color: white;
+	margin-bottom: 25px;
+	text-transform: capitalize;
+}
+.heroinfo a{
+	color: #b35354;
+	border: 1px solid #b35354;
+	text-decoration: none;
+	padding: 11px 20px;
+	text-transform: uppercase;
+
+}
+h3{
+	font-size: 17px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+.info{
+	width: 30%;
+	height: 225px;
+	float: left;
+	text-align: center;	
+	margin-top: 65px;
+	margin-bottom: 67px;
+	padding: 20px;
+}
+.info h3{
+	font-weight: 800;
+}
+.images{
+	margin: 0;
+	padding: 0;
+}
+.images img{
+	width: 25%;
+	margin: 0;
+	padding: 0;
+}
+/*start of footer*/
+footer{
+	height: 166px;
+	background-color:#000000;
+	padding: 16px;
+	margin-top: 71px;
+}
+.email{
+	float: left;
+}
+.email p{
+	font-weight: 600;
+	font-size: 17px;
+	text-transform: uppercase;
+	color: #fff;
+}
+.mail{
+	width: 631px;
+	height: 35px;
+	background-color: white;
+	float: left;
+	margin-right: 14px;
+	border:2px solid gray;
+	font-size: 14px;
+	font-weight: 300;
+	/*padding: 0 5px;*/
+}
+button {
+	width: 88px;
+	height: 35px;
+	border:1px solid white;
+	background-color: #000;
+	color: white;
+	margin: 0 auto;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+.location{
+	background-color: inherit;
+	float: right;
+	color: #fff;
+}
+.location p{
+	text-align: center;
+	font-size: 15px;
+}
+.location h3{
+	font-weight: 600;
+	
+}
+/*style for menu page*/
+#menuhero{
+	height: 365px;
+	background: url(../images/heromenu.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	overflow: auto;
+	margin-bottom: 62px;
+}
+.menu h1{
+	font-size: 57px;
+	font-family: 'Oswald',sans-serif;
+
+}
+.menu h1 span{
+	font-size: 131px;
+}
+.menu h2{
+	font-size:46px;
+	text-transform: uppercase;
+	font-family: 'Oswald',sans-serif;
+	font-weight: 400;
+	padding: 0;
+	margin: 0;
+}
+.menu ul{
+	width: 35%;
+	list-style: none;
+	padding: 5px;
+	float: left;
+	font-weight: 700;
+	padding-right: 1%;
+	margin: 20px;
+}
+.menu p em{
+	font-weight: 300;
+	font-style: italic;
+}
+.menu div img{
+	float: right;
+}
+.dots{
+	border-bottom: 2px dotted #575757;
+}
+.dots span{
+	background: white;
+	padding-bottom: 3px;
+	margin-bottom: -10px;
+}
+.price{
+	display: inline-block;
+	float: right;
+}
+.menu ul li ul{
+	width: 75%;
+	float: right;
+}
+hr {
+  width: 60%;
+  border-top: 1px solid #c9c9c9;
+  margin-top: 97px;
+  margin-bottom: 97px;
+}
+.fineprint{
+	text-align: center;
+	width: 95%;
+}
+.fineprint span{
+	display: block;
+}

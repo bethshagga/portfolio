@@ -1,0 +1,444 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap');
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	margin: 0;
+	padding: 0;
+	color: #0b3c5d;
+}
+
+.container{
+	width: 1200px;
+	margin: 0 auto;
+	padding: 0;
+}
+.clearfix:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+/*header{
+	margin-top: 26px;
+	margin-bottom: 0;
+}*/
+.social{
+	width: 274px;
+	float: right;
+	/*
+	margin-top: 26px;*/
+	
+}
+.social h4{
+	font-weight: 300;
+}
+.social img{
+	margin: 26px 10px 0;
+}
+.navi{
+	text-transform: capitalize;
+	background-color: #328cc1;
+	height: 38px;
+	text-align: right;
+	padding: 15px;
+}
+
+nav a{
+	color: #fff;
+	text-decoration: none;
+	border-right: 1px solid #fff;
+	padding: 0 15px;
+}
+
+nav a:last-child{
+	border-right: none;
+}
+.hero{
+	background-image: url(../images/hero.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 662px;
+}
+.heroinfo{
+	margin: 0;
+	position: absolute;
+	width: 50%;
+	background-color: #0b3c5d;
+	color: #fff;
+	bottom: 16px;
+	padding-right: 20px;
+	
+	text-align: left;
+}
+.booknow{
+    float: right;
+    text-align: center;
+    width: 15%;
+    padding: 5px;
+    text-transform: uppercase;
+    margin: 15px;
+}
+
+.booknow a{
+	color: #fff;
+	padding: 5px;
+	border: 1px solid #e0b250; 
+	 background-color: #e0b250;
+	  border-radius: 17%;
+}
+.info{
+	float: right;
+}
+h1{
+	font-size: 34px;
+}
+.heroinfo h1{
+	text-transform: capitalize;
+}
+/*class for value statment on homepage*/
+.box{
+	text-align: center;
+	color: #0b3c5d;
+	padding: 60px 0;
+}
+h2{
+	font-size: 32px;
+	text-transform: capitalize;
+}
+
+/* id for yello learn more text*/
+#yellow{
+	color: #bea123;
+}
+a{
+	text-decoration: none;
+	list-style: none;
+	font-size: 17px;
+}
+a:hover{
+	box-shadow: 2px 5px 7px #0b3c5d;
+}
+/* class for yellow/gold section background*/
+.yellow{
+	background-color: #e0b250;
+}
+h3{
+	font-size: 23px
+}
+h3 span{
+	color: #318cc1;
+	text-transform: capitalize;
+}
+.yellow h3{
+	float: left;
+	width: 50%;
+	text-transform: capitalize;
+	color: #fff;
+	text-align: center;
+	
+}
+.yellow img{
+	background-color: none;
+	width: 50%;
+	float: left;
+	text-align: center;
+}
+/*class for 4 images in a row*/
+
+.colContain{
+	margin-top: 64px;
+}
+.col4 {
+  float: left;
+  width: 24%;
+  position: relative;
+  margin: 0 5px;
+}
+.col4 img{
+	width: 100%;
+}
+.bottom-left {
+  max-width: 85%;
+  bottom: 8px;
+  position: absolute;
+  background-color: #0b3c5d;
+  opacity: .8;
+ padding: 5px;
+
+}
+h4{
+	font-size: 16px;
+}
+.bottom-left h4{
+	color: #fff;
+	text-transform: capitalize;
+
+	
+}
+/*class for light blue heading*/
+.litblue h2{
+	color: #318cc1;
+	margin: 60px 0;
+}
+/*.litblue{
+	height: 465px;
+}*/
+.col2{
+	float: left;
+	/*width: 67%;*/
+}
+.col2 ul{
+	margin: 0;
+	padding: 0;
+}
+.col2 ul li{
+	list-style: none;
+	padding: 6px;
+	line-height: 33px;
+}
+.col2  li a{
+	color: #fff;
+	background-color: #e0b250;
+	border: 1px solid #e0b250;
+	float: right;
+	padding: 0 4px;
+	margin: 4px;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 400;
+}
+.col2b{
+	/*text-align: right;*/
+	float: right;
+	margin-top:36px;
+	width:25%;
+}
+.col2b img{
+	/*width: 70%;*/
+	padding-bottom: 15px;
+}
+footer{
+	background-color: #1d2731;
+	text-transform: capitalize;
+
+}
+.footie{
+margin-top: 20px;
+float: right;
+}
+.footie h4{
+	/*font-size: 21px;*/
+color: #fff;
+font-width: 600;
+}
+.footie img {
+    padding: 0 15px;
+    width: 10%;
+    }
+footer .footieinfo p a{
+	color: #fff;
+	/*font-size: 21px;*/
+	font-weight: 600;
+}	
+.footieinfo{
+float: left;
+margin: 0 20px;
+}
+hr{
+	margin: 0;
+	background-color: #328cc1;
+	padding: 0;
+	height: 15px;
+}
+/* start of river page style*/
+.rivahero{
+	background-image: url(../images/river/riverhero.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+	height: 565px;
+}
+.rivainfo{
+	width: 511px;
+	background-color: #0b3c5d;
+  opacity: .7;
+  color: #fff;
+  height: 540px;
+}
+.rivainfo h1 {
+    margin: 0;
+    padding: 20px;
+}
+.rivainfo ul {
+    list-style: none;
+    line-height: 45px;
+    padding: 5px;
+}
+.disc{
+	text-align: center;
+}
+.history{
+	margin-bottom: 60px;
+}
+.hypelink a {
+    background-color: #0b3c5d;
+    color: #fff;
+    padding: 15px;
+    margin: 15px;
+    text-align: center;
+    /* width: 180px; */
+    text-transform: capitalize;
+}
+.list{
+	margin-top: 0;
+	padding-top: 0;
+	height: 250px;
+}
+/*.list2{
+	border: 5px dotted green;
+}*/
+h2 span{
+	display: block;
+	width: 100%;
+}
+.list h3{
+	text-align: left;
+	width: 66%;
+	padding: 5px 0;
+	margin:0 0 5px 0;
+}
+/*.move{
+	margin: 60px;
+}*/
+.list p{
+	width: 66%;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+.list img{
+	float: right;
+	width: 33%;
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+/*.litblue h2 span{
+	display: block;
+}*/
+.gray{
+	height: 2px;
+	background-color:#898989;
+	margin: 5px 0;
+	
+}
+#clines img{
+	/*float: left;*/
+	width: 9%;
+	padding: 1%;
+
+}
+.col3{
+	display: block;
+	width: 30%;
+	float: left;
+	margin: 5px 15px;
+}
+.col3 img{
+	padding: 10px;
+}
+.six{
+	color: #0b3c5d;
+	width: 15%;
+	height: 290px;
+	float: left;
+	border: 1px solid #0b3c5d;
+	margin: .6%;
+	padding: 0;
+}
+.sixinfo{
+	margin: 0 auto;
+	padding: 5px;
+	width: 170px;
+	text-align: center;
+}
+.sixinfo h2{
+	font-size: 22px;
+	
+}
+.sixinfo p{
+	font-size: 12px;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+}
+.price{
+	margin: 0;
+	color: #d7b50d;
+	text-align: center;
+}
+/*book page style*/
+.bookinfo{
+	width: 50%;
+	float: left;
+
+}
+.bookgo{
+	margin: 60px 0;
+	height: 400px;
+	text-transform: capitalize;
+}
+.go{
+	float: left;
+	width: 45%;
+	margin: 0;
+	padding: 0;
+}
+.go h2, p, h4{
+	color: #060606;
+}
+.go h2, h3, h4, p{
+	margin: 0; 
+	line-height: 35px;
+}
+.form{
+	width: 50%;
+	text-transform:capitalize;
+}
+input[type="text"].fullname {
+    width: 20%;
+    margin: 5px;
+    padding: 5px;
+}
+input[type="text"].add {
+    width: 100%;
+}
+.add input[type="text"]{
+	width: 60%;
+}
+.shorts{
+	display: block;
+}
+label{
+	font-size: 16px;
+}
+input[type="text"].short{
+	width: 110px;
+	display:inline-block;
+}
+legend{
+	margin: 10px 0;
+}
+
+form input[type=submit]{
+	display: block;
+	padding: 5px 0;
+	width: 70px;
+	margin: 15px auto;
+	text-transform: uppercase;
+}
+input[type=submit]:hover{
+	background-color: #e87f2e;
+	color: white;
+	border-radius: 5px;
+}
