@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Home Page</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
+  <!-- style for carousel-->
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+</head>
+<body>
+<!--start of header-->
+<section class="header">
+  <div class="social">
+     <div class="social-btn">
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-facebook-f"></i> </a>
+      <a href="#" ><i class="fab fa-yelp"></i></a>
+    </div>
+    <!--start of top nav-->
+    <ul>
+      <li> <a href="#">gift cards</a></li>
+      <li><a href="#">hours& locations</a></li>
+      <li><a href="#">contact us</a></li>
+      <li><a href="#"><i class="fas fa-user-circle user"></i> sign-in</a></li>
+      <li><a href="#"><span>vip exclusives</span></a></li>
+    </ul> 
+  </div>
+</section>
+<section class="navi">  
+  <div class="container clearfix sernav">
+    <div class="logo">
+  <a href="index.html"><img src="images/logo.jpg" alt="picture of logo"></a>
+  </div>
+  <!--start of nav-->
+  <div>
+    <input type="checkbox" id="chk">
+    <label for="chk" class="show-menu-btn">
+      <!-- class for menu icon-->
+      <i class="fas fa-bars"></i>
+    </label>
+    <!-- class for nav menu-->
+    <ul class="menu">
+      <li><a href="index.html">home</a></li>
+      <li><a href="movie.html">showtimes</a></li>
+      <li><a href="menu.html">dining</a></li>
+     <li> <a href="#">more</a></li>
+      </ul>
+      <label for="chk" class="hide-menu-btn">
+      <i class="fas fa-times"></i>
+      </label>
+      <!--code for search box-->
+    <div class="search-box">
+      <input class="search-txt" type="text"  placeholder="">
+      <a class="search-btn" href="#">
+        <i class="fas fa-search"></i>
+      </a>
+    </div>
+  </div>
+ </div> 
+</section>
+<!--end navigation-->
+<section class="hero" id="homehero">
+  <div class="heroinfo container">
+    <h1>Maleficent</h1>
+    <p>A Tale of old told Anew</p>
+      <a href="movie.html">get tickets</a>
+      <a href="movie.html">view trailer</a>
+  </div>
+</section>
+<section class="container movi clearfix">
+  <div>
+    <h2>SquareFrame Cinema Movies <span>change theatre <i class="fas fa-chevron-right"></i></span>
+      <span><a ref="#">now playing</a></span>
+     <span> <a ref="#">coming soon</a></span>
+    </h2>
+  </div>
+  <div class="gallery js-flickity" data-flickity='{ "pageDots": false, "wrapAround": true}'>
+      <div class="members ">
+        <img src="images/joke.jpg" alt="picture of joker movie poster">
+        <div class="ptag">
+        <p>JOKER</p>
+        <p>2 HR 2 MIN | R</p>
+      </div>
+      </div>
+      <div class="members">
+        <img src="images/frozen-two.jpg" alt="picture of frozen two poster">
+        <div class="ptag">
+        <p>Frozen 2</p>
+        <p>2 HR 0 MIN | PG-13</p>
+      </div>
+      </div>
+      <div class="members">
+        <img src="images/terminate.jpg" alt="picture of terminator dark fate poster">
+        <div class="ptag">
+        <p>Terminator: Dark Fate</p>
+        <p>2 HR 8 MIN | R</p>
+      </div>
+      </div>
+      <div class="members" id="cosen">
+         <a href="movie.html"><img src="images/malef.jpg" alt="picture of Maleficent Mistress of evil poster"></a>
+        <div class="ptag">
+        <p>Maleficent: Mistress <br>of Evil</p>
+        <p>1 HR 58 MIN | PG</p>
+      </div>
+      </div>
+      <div class="members">
+       <img src="images/harret.jpg" alt="picture of harriet movie poster">
+        <div class="ptag">
+       <p>Harriet</p>
+        <p>2 HR 8 MIN | R</p>
+      </div>
+      </div>
+</div>
+</section>
+<section class="movi container clearfix">
+  <h2>explore</h2>
+  <div class="celeb">
+    <img src="images/concession.jpg" alt="picture of two women buying concession">
+    <div class="celebinfo">
+      <h3>start earning rewards</h3>
+      <p>Join (Gift Card name) our free rewards program. Every member enjoys at least 3 FREE MOVIES a year, plus suprise rewards.</p>
+    </div>
+  </div>
+  <div class="celeb">
+    <img src="images/mile.jpg" alt="picture of miley and liam at avengers preview">
+    <div class="celebinfo">
+      <h3>Movie News!</h3>
+      <p>Get the best movies news information and stay updated with any greate stuff that comes to our site.</p>
+    </div>
+  </div>
+  <div class="celeb">
+    <img src="images/dine-in.jpg" alt="picture of couple at dine-in movie">
+    <div class="celebinfo">
+      <h3>More Ways to Save Money</h3>
+      <p>Click here to enjoy any of our promotional offers and recieve discounts for your next movie purchasse!</p>
+    </div>
+  </div>
+</section>
+<section class="chesse">
+    <img src="images/grillchesse.jpg" alt="picture of grill chesse sandwich with fries">
+    <hr>
+</section>
+<footer class="clearfix">
+ <div class="container">
+    <div class="footinfo">
+      <ul class="col4">
+          <li><h3>Quick links</h3></li>
+            <li>movies</li>
+            <li>showtimes</li>
+            <li>dining</li>
+            <li>more</li>
+      </ul>
+      <ul class="col4">
+          <li><h3>our company</h3></li>
+            <li>about</li>
+            <li>franchie</li>
+            <li>careers</li>
+            <li>news</li>
+            <li>advertising</li>
+            <li>press</li>
+      </ul>
+      <ul class="col4">
+          <li><h3>rewards/VIP</h3></li>
+            <li>promos/discounts</li>
+            <li>VIP exclusives</li>
+            <li>gift cards</li>
+      </ul>
+      <ul class="col4">
+          <li><h3>help</h3></li>
+            <li>contact us</li>
+            <li>FAQ</li>
+            <li>rentals</li>
+            <li>account</li>
+      </ul>
+      </div>
+      <div class="connect">
+          <h3>stay connected</h3>
+          <div class="social-btn">
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-facebook-f"></i> </a>
+          <a href="#" ><i class="fab fa-yelp"></i></a>
+          </div>
+      </div>
+      <div class="bottom clearfix">
+        <ul>
+            <li><i class="far fa-copyright"></i> 2019 company name</li>
+            <li>terms of use</li>
+            <li>privacy statement</li>
+            <li>accessibility statement</li>
+        </ul>
+    </div>
+</div>
+</footer>  
+</body>
+</html>
